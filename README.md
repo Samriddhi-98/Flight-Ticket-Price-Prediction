@@ -62,10 +62,10 @@ LinearRegression, Ridge(alpha=1), Lasso(alpha=1), DecisionTreeRegressor(max_dept
 To improve performance, we used a Stacking Regressor that combines predictions from multiple models:
 
 - Models in the Stacking Regressor:
-* Decision Tree Regressor (DT1)
-* Random Forest Regressor (RF1)
-* Gradient Boosting Regressor (GBR)
-* XGBoost Regressor (XGBR)
+  * Decision Tree Regressor (DT1)
+  * Random Forest Regressor (RF1)
+  * Gradient Boosting Regressor (GBR)
+  * XGBoost Regressor (XGBR)
 The final predictions were aggregated using RidgeCV.
 
 * Performance of the Stacking Regressor:
